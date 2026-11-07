@@ -578,4 +578,5 @@ Sketchify is an offline-first portfolio app; no license is declared for
 redistribution. The AnimeGANv2 weights are non-commercial — see
 `THIRD_PARTY_NOTICES.md`.
 #   S k e t c h i f y  
+ #   S k e t c h i f y  
  
