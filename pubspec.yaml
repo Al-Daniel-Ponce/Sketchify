@@ -1,0 +1,44 @@
+name: sketchify
+description: "Sketchify - on-device anime, pencil sketch and camera tracing app."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.7
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Camera tracing
+  camera: ^0.12.0
+  sensors_plus: ^7.1.1
+  wakelock_plus: ^1.6.1
+
+  # Images
+  image_picker: ^1.2.3
+  image: ^4.12.0
+  path_provider: ^2.1.6
+  path: ^1.9.1
+
+  # On-device anime inference (LiteRT / TensorFlow Lite)
+  tflite_flutter: ^0.12.1
+
+  # Storage & preferences
+  shared_preferences: ^2.5.5
+  permission_handler: 12.0.3
+
+  # Formatting
+  intl: ^0.20.2
+  http: ^1.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/models/anime_gan_v2.tflite

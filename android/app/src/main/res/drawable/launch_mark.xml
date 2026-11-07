@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Native splash logo, drawn as a vector so it stays crisp everywhere. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="160dp"
+    android:height="160dp"
+    android:viewportWidth="160"
+    android:viewportHeight="160">
+
+    <path
+        android:pathData="M44,0 H116 A44,44 0 0 1 160,44 V116 A44,44 0 0 1 116,160 H44 A44,44 0 0 1 0,116 V44 A44,44 0 0 1 44,0 Z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:type="linear"
+                android:startX="0"
+                android:startY="0"
+                android:endX="160"
+                android:endY="160"
+                android:startColor="#FFFF7A45"
+                android:centerColor="#FFFF9A62"
+                android:endColor="#FF8B7CFF" />
+        </aapt:attr>
+    </path>
+
+    <path
+        android:pathData="M80,49 A33,33 0 0 1 80,115 A33,33 0 0 1 80,49 Z"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#F2FFFFFF"
+        android:strokeWidth="8"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M80,70.5 A11.5,11.5 0 0 1 80,93.5 A11.5,11.5 0 0 1 80,70.5 Z"
+        android:fillColor="#FFFFFFFF" />
+
+    <path
+        android:pathData="M50,112 L106,53"
+        android:fillColor="@android:color/transparent"
+        android:strokeColor="#FFFFFFFF"
+        android:strokeWidth="11"
+        android:strokeLineCap="round" />
+
+    <path
+        android:pathData="M112,41.5 A6.5,6.5 0 0 1 112,54.5 A6.5,6.5 0 0 1 112,41.5 Z"
+        android:fillColor="#FF2A1206" />
+</vector>
